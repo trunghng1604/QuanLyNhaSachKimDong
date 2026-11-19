@@ -1,0 +1,39 @@
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Temporary files
+*.cache
+*.pdb
+*.log
+*.tmp
+Thumbs.db
+
+# SQL Server database
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.json
+*.pem
+*.key
+*.pfx
+*.p12
